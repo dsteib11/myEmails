@@ -1,0 +1,23 @@
+{
+  "title": "40% off on Easter",
+  "products": [
+    {
+      "title": "Jean Paul Gaultier Le Male",
+      "price": 68,
+      "product_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B001BAG38G&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=colognebuys10-20",
+      "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B001BAG38G&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=colognebuys10-20"
+    },
+    {
+      "title": "Yves Saint Laurent La Nuit De L’homme",
+      "price": 99,
+      "product_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0021MLVA8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=colognebuys10-20",
+      "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0021MLVA8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=colognebuys10-20"
+    },
+    {
+      "title": " Creed Aventus",
+      "price": 420,
+      "product_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B001B2WF18&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=colognebuys10-20",
+      "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B001B2WF18&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=colognebuys10-20"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+---
+layout: default
+subject: 30% Off On Easter!!
+percentage: 30
+---
+
+<container>
+  <row class="collapse header">
+    <columns small="4" large="8">
+      <h1 class="text-center">{{ easter.title }}</h1>
+    </columns>
+  </row>
+  <row class="collapse menu">
+  <columns></columns>
+  <columns small="8" large="8">
+    <!-- <center>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </center>
+  </columns> -->
+  <columns></columns>
+  </row>
+  <row>
+    <columns>
+      Home
+    </columns>
+    <columns>
+      About
+    </columns>
+    <columns>
+      Contact
+    </columns>
+    <columns>
+      Shop
+    </columns>
+  </row>
+  <spacer size="100"></spacer>
+  <row>
+    {{#each easter.products}}
+    <row class="collapse">
+      <columns small="6" large="6" valign="middle">
+        <h2 class="text-center">
+            {{this.title}}
+        </h2>
+      </columns>
+      <columns> 
+        <center>  
+          <a href="{{this.product_url}}"><img src="{{this.image_url}}" alt=""></a>
+          <spacer size="50"></spacer>
+        </center>
+      </columns>
+    </row>
+    {{/each}}
+    <spacer size="50"></spacer>
+    <row>
+      <columns small="6" large="12">
+        <h4 class="text-center">Shop For {{ percentage }}% Off </h4>
+      </columns>
+    </row>
+  </row>
+</container>

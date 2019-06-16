@@ -1,0 +1,57 @@
+---
+layout: kayak
+subject: Deal of the Day!!
+---
+
+<container>
+  <row class="deal_of_day">
+    <columns>
+      <h2>deal of the day</h2>
+      <img src="https://i.imgur.com/e3pawcY.png" alt="London">
+      <p>
+        {{kayakEmail.dealOfTheDay.location}}:
+        {{kayakEmail.dealOfTheDay.description}}
+      </p> 
+        <span class="savings">{{kayakEmail.dealOfTheDay.savings}}</span>
+        <span class="savings_info">{{kayakEmail.dealOfTheDay.savings_info}}</span>
+        <span class="price">${{kayakEmail.dealOfTheDay.price}}+</span>
+        <a href="#" class="button">See Deal+</a>
+    </columns>
+  </row>
+</container>
+<container> 
+  <row class="content_area">
+    <columns class=" first_offer">
+      {{#each kayakEmail.offers}}
+      <row class="offer">
+        <columns>
+          <img src="{{this.img}}">
+          <p>{{this.location}}:{{this.description}}</p> 
+            <span class="savings">{{this.savings}}</span>
+            <span class="savings_info">{{this.savings_info}}</span>
+            <span class="price">${{this.price}}+</span>
+            <a href="{{this.link}}" class="button">See Deal+</a>
+        </columns>
+      </row>
+      {{/each}}
+    </columns>
+  </row>
+</container>
+<container> 
+  <row class="content_area">
+    <columns>
+      <row class="offer last_offer">
+        <columns>
+          <row>
+            <columns>
+              <img src="https://i.imgur.com/ECj9odS.png" alt="airplane" class="group_icons">
+            </columns>
+          </row>
+            <h4>Still Interested? There's More!</h4>
+            <p>Search more deals to suit your budget on flights, packages, cruises and more.</p>
+            <a href="#" class="button">See All Deals+</a>
+        </columns>
+      </row>
+    </columns>
+  </row>
+</container>

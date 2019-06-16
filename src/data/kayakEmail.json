@@ -1,0 +1,41 @@
+{
+  "title": "Fly to London for less than $750 round trip and more!",
+  "dealOfTheDay": {
+    "location": "London",
+    "description": " 7 days with air, hotel and car rentals. Use promo code FREED110 to save. Price reflects Fla departure and other cities available",
+    "savings": "Save $150 with code",
+    "savings_info": "Gate 2 Travel",
+    "price": "725",
+    "link": "brittAir.com",
+    "img": "https://i.imgur.com/e3pawcY.png"
+  },
+  "offers": [
+    {
+      "location": "Cancun",
+      "description": " 5 days with air, hotel and car rentals. All inclusive trip! Use promo code JKEED110 to save.",
+      "savings": "Save up to 70%",
+      "savings_info": "delta.com",
+      "price": "700",
+      "link": "vacationexpress.com",
+      "img": "https://i.imgur.com/6WWGAXx.png"
+    },
+    {
+      "location": "Ireland",
+      "description": " 3 days with air, hotel and car rentals. All inclusive trip! Have a Brewery experience telling the tale of Ireland's famous beer, with tastings and a rooftop bar.",
+      "savings": "Save up to 80%",
+      "savings_info": "jetblueairways.com",
+      "price": "600",
+      "link": "southwest.com",
+      "img": "https://i.imgur.com/4VwA5I7.png"
+    },
+    {
+      "location": "China",
+      "description": " 8 days with air, hotel and car rentals. Enjoy great delicacies from the Asian culture.",
+      "savings": "Save up to 65%",
+      "savings_info": "southwest.com",
+      "price": "800",
+      "link": "southwest.com",
+      "img": "https://i.imgur.com/6v85WRl.png"
+    }
+  ]
+}
